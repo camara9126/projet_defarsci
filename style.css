@@ -1,0 +1,222 @@
+.container-fluid{
+    background-color: #f3ffff;
+}
+nav{
+    border-bottom: 3px,solid, #096779;
+    box-shadow: 2px 5px #096779;
+}
+.left{
+    text-align: start;
+}
+#nav{
+    border: 1px,solid,#096779;
+    border-right: 5px,solid;
+    background-color: white;
+    padding-top: 20px;
+}
+nav #center{
+    border-radius: 3px;
+    display: inline-flex;
+    background-color: #096779;
+    padding-left: 1px;
+}
+nav #center ul{
+    margin-top: 5px;
+    padding-top: 15px;
+    padding-bottom: 1px;
+}
+nav #center a{
+    color: white;
+    padding-right: 5px;
+   
+}
+nav #right{
+    display: inline-flex;
+    color: #096779;
+    justify-content: space-around;
+}
+nav #right a{
+    color: #096779;
+    padding-left: 5px;
+}
+#accueil #left{
+    margin-left: 100px;
+    padding-top: 100px;
+}
+#button{
+    text-align: center;
+}
+#button button{
+    background-color: #096779;
+    color: white;
+}
+#apropos{
+    background-color: #096779;
+}
+#apropos h1{
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+}
+#apropos p{
+    color: white;
+    text-align: center;
+}
+#partenaire #hr{
+    width: 500px;
+    height: 30px;
+    font-size: 900px;
+    color: #096779;
+    text-align: center;
+}
+#partenaire h1{
+    text-align: center;
+    color:  #096779;
+}
+#carousel{
+    background-color: #83dbed;
+    text-align: center;
+    border-radius: 5px 5px 5px 5px;
+    width: 60%;
+    height: 50%;
+    margin-left: 250px;
+    padding: 50px 60px 50px 25px;
+}
+#carousel ul{
+    list-style: none;
+    display: inline-flex;
+    text-justify: space-around;
+    text-align: center;
+
+}
+#carousel ul li{
+    margin-right: 50px ;
+
+}
+#temoin h1{
+    text-align: center;
+    color: #096779;
+    margin-bottom: 80px;
+}
+#blog ul{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: row;
+    text-align: center;
+    margin-left: 300px;
+    padding: auto;
+}
+#blog ul li{
+    border:1px solid #096779;
+    border-radius: 5px;
+    display: inline;
+    align-content: space-around;
+    margin-right: 100px;
+    height: 270px;
+}
+#blog #blog1 img{
+    position: relative;
+    bottom: 50px;
+    width: 100px;
+}
+#blog #blog2 img{
+    position: relative;
+    bottom: 50px;
+    width: 100px;
+}
+#blog #blog1 p{
+    position: relative;
+    bottom: 50px;
+}
+#blog #blog2 p{
+    position: relative;
+    bottom: 50px;
+}
+#contact h1{
+    text-align: center;
+    color: #096779;
+}
+#contact form{
+    display: flex;
+    flex-direction: column;
+    background-color: #096779;
+    width: 70%;
+    margin-left: 140px;
+    color: white;
+}
+#contact #form {
+   
+    width: 60%;
+    margin-left: 150px;
+    color: lightgrey;
+}
+form #form{
+    margin-top: 30px;
+}
+form .form-control{
+    background-color: rgb(248, 248, 248);
+}
+footer{
+    margin-top: 50px;
+    background-color: black;
+    color: white;
+}
+footer ul{
+    display: inline-flex;
+
+}
+footer ul li{
+    display: inline;
+    align-content: space-around;
+    margin-right: 100px;
+    height: 270px;
+}
+.row-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 90%;
+    margin: auto;
+}
+.row-footer .link{
+    border-radius: 5px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    background-color: white;
+    height: 95px;
+    margin: 0px 20px 0px 20px;
+}
+.justify{
+    margin: 0px 40px 0px 40px;
+}
+.link .img{
+    width: 25px;
+    height: 15px;
+    
+    }
+
+#icon p{
+    display: flex;
+    text-align: center;
+    margin-left: 400px;
+}
+footer #copy{
+    background-color: white;
+    flex-direction: row;
+    width: 120px;
+}
+footer #copy img{
+    flex-direction: column;
+    width: 25px;
+    height: 15px;
+    margin-right: 0;
+}
+footer p{
+    text-align: center;
+}
+
+
+
