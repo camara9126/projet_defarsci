@@ -74,15 +74,50 @@ nav #right a{
     color:  #096779;
 }
 #carousel{
-    background-color: #83dbed;
-    text-align: center;
+    background-color: hsl(190, 75%, 72%);
+    justify-content: center;
     border-radius: 5px 5px 5px 5px;
-    width: 60%;
+    width: 65%;
     height: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     margin-left: 250px;
-    padding: 50px 60px 50px 25px;
+    padding: 60px 70px 60px 0;
 }
-#carousel ul{
+#carousel .images{
+    margin: 0px 40px 0px 40px;
+    justify-content: space-between;
+    
+}
+#carousel .left{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+#carousel .right{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center
+}
+#carousel #btnleft {
+    color: #096779;
+    width: 20%;
+    background: none;
+    padding-left: 10px;
+    rotate: 180deg;
+}
+#carousel #btnright {
+    color: #096779;
+    background: none;
+    width: 20%;
+    display: inline-block;
+    padding-left: 10px;
+}
+/* #carousel ul{
     list-style: none;
     display: inline-flex;
     text-justify: space-around;
@@ -92,11 +127,15 @@ nav #right a{
 #carousel ul li{
     margin-right: 50px ;
 
-}
+} */
 #temoin h1{
     text-align: center;
     color: #096779;
     margin-bottom: 80px;
+}
+#blog{
+    justify-content: center;
+    display: flex;
 }
 #blog ul{
     display: inline-flex;
@@ -131,6 +170,10 @@ nav #right a{
 #blog #blog2 p{
     position: relative;
     bottom: 50px;
+}
+.contact{
+    display: flex;
+    justify-content: center;
 }
 #contact h1{
     text-align: center;
